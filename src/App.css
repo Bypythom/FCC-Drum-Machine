@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.whole-drum {
+  background-color: grey;
+  width: 40%;
+  height: 300px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.drum-pad {
+  background-color: aliceblue;
+  width: 30%;
+  height: 20%;
+  border-radius: 5px;
+  border: 1px solid;
+  margin: 1px;
+
+}
+
+#display {
+  background-color: aliceblue;
+  color: black;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  margin-top: -40px;
+}
